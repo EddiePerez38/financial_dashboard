@@ -25,7 +25,7 @@ function renderChart(response) {
   var ctx = document.getElementById('myChart')
   // eslint-disable-next-line no-unused-vars
   var myChart = new Chart(ctx, {
-    type: 'pie',
+    type: 'line',
     data: {
       labels: dates,
       datasets: [{
